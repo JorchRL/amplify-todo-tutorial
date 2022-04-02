@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -61,8 +61,8 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -85,6 +85,10 @@
   max-width: 300px;
 }
 
+.auth {
+  padding: 0px;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
@@ -97,10 +101,20 @@
   font-size: 1.5rem;
 }
 
+.card input {
+  max-width: 200px;
+  outline: none;
+}
+
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.card button {
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 .logo {
