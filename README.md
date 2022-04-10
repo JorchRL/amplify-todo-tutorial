@@ -2,6 +2,8 @@
 
 ## Live App:
 
+https://main.d3l9nsrhlyyztc.amplifyapp.com/
+
 (please note that I may have to take it down if I exceed AWS's free tier)
 
 ## How I worked on this
